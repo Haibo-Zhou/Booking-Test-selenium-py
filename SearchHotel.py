@@ -35,23 +35,23 @@ class SearchHotel(unittest.TestCase):
         check_in.click()
         time.sleep(1)
 
-        check_in_day = self.driver.find_element_by_css_selector("td[data-date='2019-07-20']")
+        check_in_day = self.driver.find_element_by_css_selector("td[data-date='2019-07-27']")
         check_in_day.click()
         time.sleep(1)
 
-        # check if select day is "Sat, Jul 20"
+        # check if select day is "Sat, Jul 27"
         check_in_sel_day = check_in.find_element_by_class_name('sb-date-field__display')
-        self.assertEqual("Sat, Jul 20", check_in_sel_day.text)
+        self.assertEqual("Sat, Jul 27", check_in_sel_day.text)
 
         # enter check-out day
-        check_out_day = self.driver.find_element_by_css_selector("td[data-date='2019-07-27']")
+        check_out_day = self.driver.find_element_by_css_selector("td[data-date='2019-07-30']")
         check_out_day.click()
         time.sleep(1)
 
-        # check if select day is "Sat, Jul 27"
+        # check if select day is "Sat, Jul 30"
         check_out = self.driver.find_element_by_css_selector('.xp__dates-inner.xp__dates__checkout')
         check_out_sel_day = check_out.find_element_by_class_name('sb-date-field__display')
-        self.assertEqual("Sat, Jul 27", check_out_sel_day.text)
+        self.assertEqual("Tue, Jul 30", check_out_sel_day.text)
 
     def test_03_sel_person_num(self):
         # select person num

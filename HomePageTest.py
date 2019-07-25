@@ -57,8 +57,8 @@ class HomePageTest(unittest.TestCase):
         self.assertEqual(5, len(index_items))
 
         # print 5 cities in total :)
-        for item in index_items:
-            print(item.get_attribute('alt'))
+        # for item in index_items:
+        #     print(item.get_attribute('alt'))
 
     def test_select_currency(self):
         # get currency element
@@ -76,12 +76,12 @@ class HomePageTest(unittest.TestCase):
         select_currency_items = \
             select_currency.find_elements_by_tag_name('li')
 
-        print(len(select_currency_items))
+        # print(len(select_currency_items))
 
         # check number of options in dropdown
         self.assertEqual(50, len(select_currency_items))
 
-        print(select_currency_items[0].text)
+        # print(select_currency_items[0].text)
 
 
         # select US dollar

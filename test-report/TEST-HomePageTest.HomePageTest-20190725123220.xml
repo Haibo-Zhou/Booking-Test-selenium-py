@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="HomePageTest.HomePageTest-20190725123220" tests="5" time="8.803">
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_index_section" time="0.605"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_promo_items" time="1.811"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_button_enable" time="0.031"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_by_location" time="0.028"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_select_currency" time="6.328"/>
+	<system-out>
+<![CDATA[Hong Kong
+France
+Japan
+China
+South Korea
+50
+AR$
+Argentine Peso
+]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

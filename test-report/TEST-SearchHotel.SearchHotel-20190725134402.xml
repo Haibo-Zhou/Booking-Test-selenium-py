@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="SearchHotel.SearchHotel-20190725134402" tests="4" time="13.591">
+	<testcase classname="SearchHotel.SearchHotel" name="test_01_Search_location" time="2.201"/>
+	<testcase classname="SearchHotel.SearchHotel" name="test_02_check_in_out" time="3.561"/>
+	<testcase classname="SearchHotel.SearchHotel" name="test_03_sel_person_num" time="2.647"/>
+	<testcase classname="SearchHotel.SearchHotel" name="test_04_search_submit" time="5.183"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

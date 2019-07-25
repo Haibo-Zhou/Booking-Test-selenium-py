@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<testsuite errors="1" failures="0" name="HomePageTest.HomePageTest-20190725134402" tests="5" time="7.939">
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_index_section" time="0.199"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_button_enable" time="0.026"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_by_location" time="0.049"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_select_currency" time="7.577"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_promo_items" time="0.087">
+		<error message="2 != 3" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "/Users/Chuck/PycharmProjects/BookingTest/HomePageTest.py", line 47, in test_count_of_promo_items
+    self.assertEqual(2, len(promo_items))
+AssertionError: 2 != 3
+]]>		</error>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

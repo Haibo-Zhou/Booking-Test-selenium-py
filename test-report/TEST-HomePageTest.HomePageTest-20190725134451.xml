@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<testsuite errors="0" failures="0" name="HomePageTest.HomePageTest-20190725134451" tests="5" time="7.352">
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_index_section" time="0.234"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_count_of_promo_items" time="0.046"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_button_enable" time="0.042"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_search_by_location" time="0.029"/>
+	<testcase classname="HomePageTest.HomePageTest" name="test_select_currency" time="7.001"/>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>

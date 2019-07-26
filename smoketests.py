@@ -13,4 +13,4 @@ smoke_tests = unittest.TestSuite([home_page_tests, search_tests])
 
 
 # run the suite
-xmlrunner.XMLTestRunner(verbosity=2, output='test-report').run(smoke_tests)
+xmlrunner.XMLTestRunner(verbosity=2, output='test-reports').run(smoke_tests)
